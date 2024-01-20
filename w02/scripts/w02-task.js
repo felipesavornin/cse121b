@@ -24,8 +24,9 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 let foods = ['steak', 'pasta', 'pizza', 'hamburguers', 'sushi'];
-foods.push('chivito');
+foodElement.innerHTML += `<br><span style="font-weight: bold; text-transform: capitalize;">${foods}</span>`;
 
+foods.push('chivito');
 foodElement.innerHTML += `<br><span style="font-weight: bold; text-transform: capitalize;">${foods}</span>`;
 
 foods.shift();
