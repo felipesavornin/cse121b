@@ -5,15 +5,15 @@ let myProfile = {
     name: 'Felipe Savornin',
     photo: './images/felipe-profile.png',
     favoriteFoods: [
-        'steak', 
-        'pasta', 
-        'pizza', 
-        'hamburguers', 
-        'sushi'
+        'Steak', 
+        'Pasta', 
+        'Pizza', 
+        'Hamburguers', 
+        'Sushi'
     ],
     hobbies: [
-        'play soccer',
-        'go to the movies'
+        'Play soccer',
+        'Go to the movies'
     ],
     placesLived: []
 };
