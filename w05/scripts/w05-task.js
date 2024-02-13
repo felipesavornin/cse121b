@@ -66,8 +66,8 @@ const filterTemples = function(temples){
         break;
 
         case 'older':
-            newTempleArray = temples.filter(filNoUtah);
-            function filNoUtah(i){       
+            newTempleArray = temples.filter(filOld);
+            function filOld(i){       
                 if(Date.parse(i.dedicated) < new Date(1950, 0, 1)){
                     return i;
                 }
