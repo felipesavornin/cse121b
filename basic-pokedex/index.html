@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic PokeDex - Felipe Savornin</title>
+    <link rel="stylesheet" href="styles/simple.css">
+</head>
+<body>
+    <header>
+        <h1>Basic PokeDex</h1>
+        <p>by Felipe Savornin</p>
+    </header>
+    <div id="search">
+        <form>            
+            <p><strong>Please type the Pokemon name you are looking for</strong></p>
+            <p><input type="text" name="poke_name" id="poke_name"></p>    
+            <aside id="search-results"></aside>        
+            <p><strong>Or look by Name first letter</strong></p>
+            <p id="alphabet-filter"></p>
+        </form>
+    </div>
+    <div id="poke-list"></div>
+    <div id="poke-card"></div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
